@@ -1,0 +1,110 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: whitesmoke;
+	border-radius: 20PX;
+}
+button{
+	width: 100%;
+	height: 20%;
+	border: none;
+	outline: none;
+}
+#img1,#img2,#img3,#img4,#img5{
+	width: 60%;
+	height: 50%;
+}
+#background{
+	width:  60%;
+	height: 60%;
+	top: 20%;
+	left: 20%;
+	position:absolute;
+	background: white;
+	box-shadow: 0 0 0 gray;
+	border-radius: 15px;
+}
+#bar{
+	width: 10%;
+	height: 100%;
+}
+#box0{
+	width: 30%;
+	height: 100%;
+	top: 0;
+	left: 10%;
+	position: absolute;
+	background-image: url(../img/02.jpg);
+	border-radius: 5px;
+}
+#Bar1{
+	width: 50%;
+	height: 25%;
+	border-radius: 50%;
+	top: 25%;
+	left: 25%;
+	position: absolute;
+}
+#Bar2{
+	text-align: center;
+	top: 70%;
+	left: 0;
+	position: absolute;
+}
+#box1{
+	width: 90%;
+	height: 100%;
+	top: 0;
+	left: 10%;
+	position:absolute;
+	background-image: url(../img/01.jpg);
+	border-radius: 15px;
+	text-align: center;
+	display: none;
+}
+#box2,#box3,#box4,#box5{
+    width: 60%;
+	height: 100%;
+	top: 0;
+	left: 40%;
+	position:absolute;
+	border-radius: 20px;
+	display: none;
+}
+#HeadPicture{
+	width: 20%;
+	height: 35%;
+	top: 20%;
+	left: 39.5%;
+	position:absolute;
+}
+#Head{
+	top: 70%;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+}
+#img01{
+	width: 100%;
+	height: auto;
+}
+#about1,#about2{
+	width: 50%;
+	height: auto;
+	float: left;
+	font-size: 20px;
+}
+#skill01,#skill02,#skill03,#skill04{
+	width: 25%;
+	height: 20%;
+	text-align: center;
+	float: left;
+}
+#resume01,#resume02{
+	width: 50%;
+	height: 80%;
+	float: left;
+	text-align: center;
+}
